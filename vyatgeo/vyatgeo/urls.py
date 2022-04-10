@@ -15,9 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from lang import views as lang_views
+from .views import index as vyatgeo_index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', lang_views.index),
+    path('', vyatgeo_index),
 ]

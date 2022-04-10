@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <img alt="Vue logo" src="./../assets/logo.png">
     <h1>{{ msg }}</h1>
     <p>
       Для получения руководства и рецептов о том, как настроить / настроить этот проект,<br>
@@ -27,6 +28,7 @@
       <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
+    <hr class="featurette-divider">
   </div>
 </template>
 
@@ -54,5 +56,14 @@ li {
 }
 a {
   color: #42b983;
+}
+
+.hello {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
 }
 </style>
